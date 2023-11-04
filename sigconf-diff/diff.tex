@@ -1,7 +1,7 @@
 %DIF 1c1
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL ../sigconf-rev1/all.tex   Fri Nov  3 22:22:08 2023
-%DIF ADD ../sigconf-rev2/all.tex   Fri Nov  3 22:24:54 2023
+%DIF ADD ../sigconf-rev2/all.tex   Fri Nov  3 22:28:10 2023
 %DIF < \documentclass[10pt,sigconf,anonymous]{acmart}
 %DIF -------
 \documentclass[10pt,sigconf]{acmart} %DIF > 
@@ -168,25 +168,23 @@ ACM SIG Proceedings.\footnote{This is an abstract footnote}
 \DIFdelbegin \DIFdel{Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Sed aliquam nisl turpis, sit amet mollis leo accumsan vel.
 Donec semper turpis dui, a porttitor lorem tincidunt id.
-Phasellus gravida, purus non faucibus euismod, lectus tortor maximus elit, vestibulum lobortis purus turpis non urna.
-Fusce feugiat lectus ut massa molestie, non interdum augue porta.
+Phasellus gravida, purus non faucibus euismod, lectus tortor maximus elit, vestibulum lobortis purus turpis non urna. Fusce feugiat lectus ut massa molestie, non interdum augue porta. 
 Nunc dapibus odio nec neque cursus, ut lacinia velit rutrum.
 Duis tempor nulla velit, sed pellentesque nunc imperdiet ut.
 Phasellus eget hendrerit neque.
-Suspendisse aliquet nulla id sem aliquam aliquam sed a orci.
-Duis sem est, hendrerit nec porttitor sit amet, maximus sed nulla.
+Suspendisse aliquet nulla id sem aliquam aliquam sed a orci. 
+Duis sem est, hendrerit nec porttitor sit amet, maximus sed nulla. 
 Suspendisse et dictum massa.
 Morbi non diam nec orci sodales eleifend.
-Etiam eget finibus purus, a malesuada ipsum.
-Nullam ac nisi nec elit faucibus aliquet.
+Etiam eget finibus purus, a malesuada ipsum. Nullam ac nisi nec elit faucibus aliquet.
 Nulla feugiat velit sed sodales eleifend.
-Donec orci nulla, viverra et mi in, sagittis egestas urna.
-}\DIFdelend \DIFaddbegin \revdiff{Here we share our experiences and insights, hoping to provide a guide for others facing similar challenges as we encountered recently while preparing revised manuscripts for prominent conferences and journals.
+Donec orci nulla, viverra et mi in, sagittis egestas urna}\DIFdelend \DIFaddbegin \DIFadd{Here we share our experiences and insights, hoping to provide a guide for others facing similar challenges as we encountered recently while preparing revised manuscripts for prominent conferences and journals.
 Many of the conferences and journals such as OOPSLA, PLDI, POPL, FSE, ICSE, and UIST etc. require revised manuscript submissions along with a clear diff to facilitate easy tracking of changes. 
 Recently, as we navigated the revision process for our submissions, we observed a shared struggle within the research community. 
-Like most people in Computer Science research, we use LaTex and we tried to use \ls{latexdiff}~\cite{latex-diff} to show modifications for our revisions. 
-Initially, we faced several issues which were gut-wrenching on the final day of revision submission. It took us to try several available options, and finally, we figured out the correct options to generate a diff PDF to track the changes.}
-\DIFaddend 
+Like most people in Computer Science research, we use LaTex and we tried to use }\ls{latexdiff}\DIFadd{~\mbox{%DIFAUXCMD
+\cite{latex-diff} }\hspace{0pt}%DIFAUXCMD
+to show modifications for our revisions. 
+Initially, we faced several issues which were gut-wrenching on the final day of revision submission. It took us to try several available options, and finally, we figured out the correct options to generate a diff PDF to track the changes}\DIFaddend .
 
 
 \subsection{Subsection}
