@@ -45,6 +45,8 @@
 \renewcommand{\lstlistingname}{Code}% Listing -> Code
 \let\ls\lstinline
 
+% declare DIFnomarkup environment before CCSXML
+\newenvironment{DIFnomarkup}{}{}
 
 % DOI
 \acmDOI{10.475/123_4}
@@ -96,6 +98,7 @@ ACM SIG Proceedings.\footnote{This is an abstract footnote}
 % http://dl.acm.org/ccs.cfm
 % Please copy and paste the code instead of the example below. 
 %
+\begin{DIFnomarkup}
 \begin{CCSXML}
 <ccs2012>
  <concept>
@@ -125,6 +128,7 @@ ACM SIG Proceedings.\footnote{This is an abstract footnote}
 \ccsdesc[300]{Computer systems organization~Redundancy}
 \ccsdesc{Computer systems organization~Robotics}
 \ccsdesc[100]{Networks~Network reliability}
+\end{DIFnomarkup}
 % We no longer use \terms command
 %\terms{Theory}
 
